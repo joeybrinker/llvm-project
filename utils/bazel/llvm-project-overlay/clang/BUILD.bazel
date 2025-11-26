@@ -1524,6 +1524,15 @@ cc_library(
         ":basic",
         ":config",
         ":driver_options_inc_gen",
+<<<<<<< HEAD
+||||||| parent of ad447268d4d1 (Merge commit 'd090311aa7df' from llvm.org/main into next)
+        ":lex",
+        ":options",
+=======
+        ":frontend",
+        ":lex",
+        ":options",
+>>>>>>> ad447268d4d1 (Merge commit 'd090311aa7df' from llvm.org/main into next)
         ":parse",
         ":static_analyzer_checkers_gen",
         "//llvm:BinaryFormat",
@@ -1676,7 +1685,6 @@ cc_library(
         ":ast",
         ":basic",
         ":config",
-        ":driver",
         ":driver_options_inc_gen",
         ":edit",
         ":lex",
